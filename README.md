@@ -50,4 +50,4 @@ Under Log streams, click the most recent log stream.
 Review the log. You should see similar output as you did in the execution results.
 
 # Conclusion
-Congratulations — you've completed this hands-on lab!
+Congratulations — you've completed this lab!
