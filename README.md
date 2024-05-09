@@ -24,29 +24,15 @@ Once the function has been created, scroll down to the Code tab.
 
 Under Code source, select lambda_function.py.
 
-Replace the existing sample code with the following:
-
-import json
-
-def lambda_handler(event, context):
-    message = 'Hello {} {}! Keep being awesome!'.format(event['first_name'], event['last_name'])  
-
-    #print to CloudWatch logs
-    print(message)
-
-    return {
-        'message' : message
-    }  
-Click Deploy.
+Replace the existing sample code with the code file.
 
 Create a Test Event and Execute Lambda
 Select Test > Configure test event.
 
 For Event name, type myTest.
 
-In the Event JSON box, replace the sample code with the following:
+In the Event JSON box, replace the sample code with the code in the file.
 
-{ "first_name": "Your First Name Here", "last_name": "Your Last Name Here" }
 Update the code to use your first and last name.
 
 Click Format JSON.
