@@ -1,0 +1,16 @@
+import json
+
+def lambda_handler(event, context):
+    message = 'Hello {} {}! Keep being awesome!'.format(event['first_name'],
+event['last_name'])
+
+  #print message
+  print(message)
+
+  return {
+      'message' : message
+}
+
+#Test Event JSON
+
+{ "first_name": "Your name here", "last_name": "your last name here" }
